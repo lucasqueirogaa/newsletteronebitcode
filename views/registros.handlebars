@@ -1,0 +1,54 @@
+{{! Head da aplicação }}
+
+<title>NewsLetter Ruby Onebitcode</title>
+
+<link href="/assets/css/all.css" rel="stylesheet" />
+
+{{! Aplicação }}
+
+<div class="container-lg">
+
+  <h1>AS PRINCIPAIS NOVIDADE DE RUBY</h1>
+
+  <p class="contentNl">
+    DICAS • FRAMEWORKS • BIBLIOTECAS
+    <br />
+    PRODUTIVIDADE • BOOTCAMP</p>
+
+  <p class="byOwner">por Leonardo Scorza - Onebitcode</p>
+
+  <p class="description">Receba
+    <span style="font-weight: bold;">todas as sextas-feiras</span>
+    um e-mail meu com as
+    <br />
+    principais novidades da comunidade de ruby que eu vi, estudei e apliquei. 🤘</p>
+
+  <form action="/addEmail" method="POST">
+
+    <input
+      type="text"
+      name="emailCamp"
+      placeholder="Seu principal Email"
+      class="emailInput"
+    />
+
+    <button type="submit" class="btn btn-danger">QUERO RECEBER</button>
+  </form>
+
+  <ul>
+    <li>
+      <a href="">
+        <img class="img" src="/assets/instagramLogo.png" alt="" />
+      </a>
+    </li>
+
+    <li>
+      <a href="">
+        <img class="img" src="/assets/youtube.png" alt="" />
+      </a>
+    </li>
+  </ul>
+
+  <p class="createdby">Criado com ❤ por <span>Lucas Queiroga</span> • 2021</p>
+
+</div>
